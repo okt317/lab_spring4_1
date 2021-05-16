@@ -18,10 +18,10 @@ public class Sonata {
 		this.carColor = carColor;
 		this.wheelNum = wheelNum;
 		this.speed = speed;
-	}
+	} 
 	@Override
 	public String toString() {
-		return "자동차 정보 출력하기";
+		return "자동차의 정보를 출력하기";
 	}
 	public String getCarColor() {
 		return carColor;
